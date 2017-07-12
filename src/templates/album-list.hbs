@@ -1,0 +1,19 @@
+<!-- service.js 에서 받아서 hbs 에서 배열돌리기 -->
+<!-- 작업 순서!!
+    1. https://getmdl.io/components/index.html  ->mdl 사이트에서 카드타입 스타일과, 마크업 가져오기
+-->
+{{#each albumList}}
+<div class="demo-card-square mdl-card mdl-shadow--2dp" style="width:320px; height:320px;">
+    <div class="mdl-card__title mdl-card--expand" style="color:#fff; background:url('http://lorempixel.com/320/119/food/?{{id}}') top left no-repeat / cover;">
+        <h2 class="mdl-card__title-text">Update</h2>
+    </div>
+    <div class="mdl-card__supporting-text">
+        {{title}}
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            View Updates
+        </a>
+    </div>
+</div>
+{{/each}}
