@@ -1,8 +1,7 @@
 # photo_app
 - git study / nodejs study / ECMA6 script output
 
-#기술
-- 기술내역
+# technical description
 - build : "webpack"
 - axios : HttpRequests 가져오는 통신
   Promise based HTTP client for the browser and node.js
