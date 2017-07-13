@@ -1,5 +1,5 @@
 # photo_app
-photo_album
+- git study / nodejs study / ECMA6 script output
 
 #기술
 - 기술내역
